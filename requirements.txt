@@ -1,0 +1,23 @@
+# Core
+google-adk>=0.5.0
+python-dotenv>=1.0.0
+
+# GCP — include all, comment out what this client doesn't need
+google-cloud-bigquery>=3.0.0
+google-cloud-storage>=2.0.0
+google-cloud-secret-manager>=2.0.0
+google-cloud-aiplatform>=1.60.0
+
+# UI — Streamlit
+streamlit>=1.35.0
+
+# UI — Slack (uncomment if using slack integration)
+# slack-bolt>=1.18.0
+
+# UI — Teams (uncomment if using teams integration)
+# botbuilder-core>=4.15.0
+# flask>=3.0.0
+
+# Dev
+pytest>=8.0
+pytest-asyncio>=0.23
