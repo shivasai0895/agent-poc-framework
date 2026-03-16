@@ -32,5 +32,8 @@ service-account*.yaml
 .vscode/
 *.swp
 
+#Claude
+CLAUDE.md
+
 # OS
 .DS_Store
